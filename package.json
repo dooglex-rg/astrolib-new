@@ -1,0 +1,34 @@
+{
+  "name": "astrolib-new",
+  "version": "1.8.0",
+  "description": "Astrology Library to get Birth Chart and Navamsa Chart. Compatibility retrieval using the same.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dooglex-rg/astroreha.git"
+  },
+  "keywords": [
+    "Swiss",
+    "Ephemeris",
+    "Astrology",
+    "Jyotish",
+    "Birth Chart",
+    "Navamsa Chart",
+    "Reha"
+  ],
+  "author": "ChethanKumar",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/dooglex-rg/astroreha/issues"
+  },
+  "homepage": "https://github.com/dooglex-rg/astroreha#readme",
+  "dependencies": {
+    "ephemeris" : "github:dooglex-rg/ephemeris",
+    "jyotish-modified": "github:dooglex-rg/jyotish",
+    "swisseph": "^0.5.14",
+    "sweph": "2.10.3-2"
+  }
+}
